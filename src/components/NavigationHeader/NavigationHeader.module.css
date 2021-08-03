@@ -1,0 +1,92 @@
+/*navigation bar styling*/
+
+.mainNav{
+	grid-area: navWrapper;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	background-color: #af117f;
+	padding: 0.9rem 2rem;
+}
+
+.mainNav__logo a{
+	font-size: 2rem;
+	display: inline-block;
+	text-decoration: none;
+	color:#fff;
+}
+
+.searchContainer{
+	display: flex;
+	align-items: center;
+	padding: 0.6rem 1.2rem;
+	background: #ffffff;
+	width:30%;
+}
+.searchContainer .searchIcon{
+	width:50px;
+	font-size: 1.8rem;
+	cursor:pointer;
+}
+
+.searchContainer input[type=text]{
+	flex:1;
+	padding: 1rem;
+}
+
+.mainNav__items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainNav__items button{
+	width: 150px;
+	margin-right:4rem;
+	padding: 0.8rem 1.1rem;
+	cursor:pointer;
+	font-size: 1.3rem;
+}
+
+.mainNav__items .commentIcon{
+	font-size:1.3rem;
+}
+
+.mainNav__items .notification{
+	position: relative;
+}
+
+.mainNav__items .notification > div{
+	position: absolute;
+	top:-8px;
+	right:0;
+}
+
+.mainNav__items .notificationIcon{
+	font-size:1.3rem;
+}
+
+.mainNav__items .notificationIcon > div{
+	position: absolute;
+	top:-2px;
+}
+.mainNav__items ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.mainNav__items ul li{
+	margin-right:0.9rem;
+}
+
+.mainNav__items ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#fff;
+}

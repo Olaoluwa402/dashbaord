@@ -1,0 +1,86 @@
+.modal{
+	width: 90%;
+	background: white;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	position: fixed;
+	top: 8vh;
+	left: ;
+	left: 5%;
+	z-index: 100;
+	border-radius: 8px;
+}
+
+.modal__header{
+	padding: 1rem;
+	background: #fc5497;
+	color: white;
+}
+
+.modal__header h1{
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.modal__content{
+	padding: 1rem;
+}
+
+.modal__actions{
+	display: flex;
+	justify-content: start;
+	padding: 1rem;
+}
+
+.closeModal{
+	position: absolute;
+	top:0;
+	right:0;
+	color: #000;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cancelBtn{
+	background: transparent;
+	font: inherit;
+	border: 1px solid #fc5497;
+	border-radius: 3px;
+	padding: .25rem 1rem;
+	margin-right: 1rem;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+	color: #333;
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+}
+.cancelBtn:hover,
+.cancelBtn:active{
+	background: #fc5497;
+	border-color:#6219d6 ;
+	color:#fff;
+}
+
+.confirmBtn{
+	background: #fc5497;
+	font: inherit;
+	border: 1px solid var(--favorite);
+	border-radius: 3px;
+	padding: .25rem 1rem;
+	margin-right: 1rem;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+	color: #333;
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+}
+.confirmBtn:hover,
+.confirmBtn:active{
+	background: rgba(98, 25, 214, 0.5);
+	border-color:#6219d6 ;
+}
+
+@media (min-width: 768px) {
+	.modal {
+		width: 30rem;
+		left: calc((100% - 30rem) / 2);
+	}
+}

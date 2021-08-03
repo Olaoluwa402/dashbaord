@@ -1,0 +1,6 @@
+.navWrapper{
+	grid-area: navWrapper;
+	width: 100%;
+	height: 70px;
+	background: blue;
+}

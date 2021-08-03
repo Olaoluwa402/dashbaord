@@ -1,0 +1,7 @@
+.sideWrapper{
+	grid-area: sideWrapper;
+	/*width: 1;*/
+	height: auto;
+	background: red;
+}
+

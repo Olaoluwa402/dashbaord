@@ -1,0 +1,15 @@
+.mainWrapper{
+	display: grid;
+	grid-template-columns: 90px 1fr;
+	grid-template-areas: 
+	"navWrapper navWrapper navWrapper navWrapper"
+	"sideWrapper otherWrapper otherWrapper otherWrapper"
+	"sideWrapper otherWrapper otherWrapper otherWrapper";
+}
+
+.otherWrapper{
+	grid-area:otherWrapper;
+	background-color: #ffffff; 
+	/*min-width:100%;*/
+	min-height: 100vh;
+}

@@ -1,0 +1,154 @@
+/*goals styling*/
+
+.wrapper{
+	background: #fff;
+	padding: 2rem 4rem;
+}
+
+.members{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 3rem;
+	background: #fff;
+}
+
+.member{
+	width: 400px;
+	max-width: 100%;
+	margin-right: 2rem;
+	border:2px solid #af117f;
+	border-radius: 50px;
+	background: #fff;
+	text-align: center;
+	position: relative;
+}
+.member img{
+	width: 100%;
+	height: 100%;
+	padding: 0.4rem;
+	object-fit: contain;
+	border-radius: 50px;
+}
+
+.status{
+	width:10px;
+	height: 10px;
+	background: #60ab85;
+	border-radius: 50px;
+	position: absolute;
+	bottom:0.3rem;
+	right: 0;
+}
+
+
+/*smart goal*/
+.smart{
+	padding: 2rem 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.smart > div{
+	flex: 1;
+}
+
+.smart p{
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+.smart span{
+	color:#fc5497;
+}
+
+.smart button{
+	color:#fff;
+	background:#fc5497; 
+	padding: 0.6rem 1.2rem;
+	width: 120px;
+	font-weight: bold;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+}
+
+.divider{
+	margin-top: 2rem;
+}
+
+/*table styling*/
+.tableWrapper {
+    align-items: center;
+    padding: 0.8rem;
+    margin: 2rem 0;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableWrapper table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    min-width: 600px;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.tableWrapper td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 14px;
+    text-align: center;
+}
+
+.tableWrapper tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.action{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.action a{
+	margin-right: 0.5rem;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+/*form styling*/
+
+.modalForm{
+	padding: 1rem 1.5rem;
+}
+
+.formControl{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.5rem;
+}
+
+.formControl input{
+	padding: 0.5rem;
+} 
+
+.subgoal, .startDate, .endDate{
+	display: flex;
+	align-items: center;
+}
+
+.subgoal button{
+	display: inline-block;
+	padding: 0.6rem 1rem;
+	background: #fc5497;
+	border:none;
+}
+
+.modalIcon{
+	font-size:2.5rem;
+}
