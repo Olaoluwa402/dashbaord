@@ -12,7 +12,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
 import Backdrop from "../../components/Backdrop/Backdrop";
-import {FaCalendarAlt} from "react-icons/fa";
+// import {FaCalendarAlt} from "react-icons/fa";
 
 import styled from "./GoalScreen.module.css";
 

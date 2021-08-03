@@ -1,6 +1,6 @@
 import React from "react";
 
-import styled from "./AboutScreen.module.css";
+// import styled from "./AboutScreen.module.css";
 
 const AboutScreen = () => {
 	return (

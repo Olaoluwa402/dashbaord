@@ -1,6 +1,6 @@
 import React from "react";
 
-import styled from "./HomeScreen.module.css";
+// import styled from "./HomeScreen.module.css";
 
 const Homescreen = () => {
 	return (
